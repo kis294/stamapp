@@ -17,16 +17,30 @@
    <widget class="QStackedWidget" name="stackedWidget">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>130</y>
+      <x>160</x>
+      <y>220</y>
       <width>581</width>
       <height>521</height>
      </rect>
     </property>
     <property name="currentIndex">
-     <number>2</number>
+     <number>0</number>
     </property>
-    <widget class="QWidget" name="Intro"/>
+    <widget class="QWidget" name="Intro">
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>460</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Next Page</string>
+      </property>
+     </widget>
+    </widget>
     <widget class="QWidget" name="page"/>
     <widget class="QWidget" name="Sing"/>
     <widget class="QWidget" name="Sounds"/>

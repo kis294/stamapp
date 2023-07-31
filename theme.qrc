@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>white.jpg</file>
+    <file>download.jpg</file>
+    <file>theme.jpg</file>
+  </qresource>
+  <qresource prefix="newPrefix"/>
+  <qresource prefix="porky"/>
+</RCC>
